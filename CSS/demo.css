@@ -1,0 +1,53 @@
+/* 1 id selector */
+/* #p1{
+    background-color: aqua;
+}
+#p2{
+    background-color: aqua;
+} */
+
+
+/* & 2 class selector */
+/* .dem{
+    background-color: blue;
+}
+.test{
+    background-color: brown;
+} */
+
+
+/*  3 tagname selector */
+/* p{
+    background-color: blue;
+}
+div{
+    background-color: violet;
+}
+h1{
+    background-color: gray;
+} */
+
+
+/* 4 grouping selector */
+/* .p1, .p2 {
+    background-color: yellow;
+}
+p, h2{
+    background-color: aqua;
+} */
+
+/*  5 Universal selector */
+*{
+    background-color: aqua;
+    border: 5px solid violet;
+}
+h2{
+    background-color: blue;
+}
+.p2{
+    border: 3px solid rgb(73, 39, 56);
+    background-color: chartreuse;
+}
+/* html{
+    background-color: rgb(212, 235, 109);
+} */
