@@ -1,4 +1,4 @@
-/* 1 id selector */
+/* & 1 id selector */
 /* #p1{
     background-color: aqua;
 }
@@ -16,7 +16,7 @@
 } */
 
 
-/*  3 tagname selector */
+/* &  3 tagname selector */
 /* p{
     background-color: blue;
 }
@@ -28,7 +28,7 @@ h1{
 } */
 
 
-/* 4 grouping selector */
+/* & 4 grouping selector */
 /* .p1, .p2 {
     background-color: yellow;
 }
@@ -36,7 +36,7 @@ p, h2{
     background-color: aqua;
 } */
 
-/*  5 Universal selector */
+/* &  5 Universal selector */
 *{
     background-color: aqua;
     border: 5px solid violet;
