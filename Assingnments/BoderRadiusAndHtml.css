@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ! first div */
+.GreenDrop {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border-radius: 0px 100px 100px 100px;
+}
+
+/* ! Div four leep */
+.sectionleep{
+    margin-left: 250px;
+    margin-top: -200px;
+}
+.firstleep {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 100px 100px 0px 100px;
+}
+
+.secondleep {
+    width: 200px;
+    height: 200px;
+    margin-left: 200PX;
+    margin-top: -200PX;
+    background-color: orange;
+    border-radius: 100px 100px 100px 0px;
+}
+
+.thirdleep {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border-radius: 100px 0px 100px 100px;
+}
+
+.fourthleep {
+    width: 200px;
+    height: 200px;
+    margin-left: 200PX;
+    margin-top: -200PX;
+    background-color: purple;
+    border-radius: 0px 100px 100px 100px;
+}
+
+/* ! lalipop div */
+.lalipop{
+    margin-left: 700px;
+    margin-top: -400px;
+}
+.firstlalipop {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 1000px 0px 0px 0px;
+}
+
+.secondlalipop {
+    width: 200px;
+    height: 200px;
+    margin-left: 200PX;
+    margin-top: -200PX;
+    background-color: orange;
+    border-radius: 0px 1000px 0px 0px;
+}
+
+.thirdlalipop {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border-radius: 0px 0px 0px 1000px;
+}
+
+.fourthlalipop {
+    width: 200px;
+    height: 200px;
+    margin-left: 200PX;
+    margin-top: -200PX;
+    background-color: purple;
+    border-radius: 0px 0px 1000px 0px;
+}
+
+/* ! circle inside circle */
+.circle{
+    margin-top: -190px;
+}
+.circleOrange {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border-radius: 100px;
+}
+
+.circleInn {
+    width: 50px;
+    height: 50px;
+    margin-top: -125px;
+    margin-left: 75px;
+    background-color: purple;
+    border-radius: 100px;
+}
+
+.circleMid {
+    width: 130px;
+    height: 130px;
+    margin-left: 35px;
+    margin-top: -90px;
+    border: 15px solid purple;
+    border-radius: 100px;
+}

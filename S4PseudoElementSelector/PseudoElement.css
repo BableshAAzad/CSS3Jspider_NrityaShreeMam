@@ -1,0 +1,24 @@
+p::first-letter{
+    color: red;
+}
+
+p::first-line{
+    background-color: aqua;
+}
+
+p::before{
+    content: "HIIIIIIIIIIIIIIIIIIIIIIIIIIII";
+}
+
+p::after{
+    content: "BYEEEEEEEEEEEEEEEEEEEEEEEEEEE";
+}
+
+p::selection{
+    color: blue;
+    background-color: rgb(255, 0, 234);
+}
+ol li::marker{
+    color: red;
+    font-size: 30px;
+}

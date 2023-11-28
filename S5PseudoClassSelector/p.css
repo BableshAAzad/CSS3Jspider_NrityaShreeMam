@@ -1,0 +1,48 @@
+a{
+    font-size: 30px;
+}
+*{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+/* ^--------------Link----------------------------- */
+a:link{
+    color: rgb(226, 131, 43);
+}
+/* ^--------------visited--------------------------- */
+a:visited{
+    color: green;
+}
+/* ^--------------Hover----------------------------- */
+a:hover{
+    background-color: purple;
+    color: aqua;
+}
+/* ^--------------Active----------------------------- */
+a:active{
+    color: rgb(29, 29, 28);
+}
+/* ^--------------focus----------------------------- */
+input:focus{
+    background-color: rgb(9, 255, 0);
+}
+
+input:focus{
+    color: #ff004c;
+}
+/* ^------------------------------------------------ */
+section{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+}
+section article{
+    margin: 65px;
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+}
+section:hover article{
+    background-color: green;
+}

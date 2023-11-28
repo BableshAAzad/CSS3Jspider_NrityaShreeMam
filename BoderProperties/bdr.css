@@ -1,0 +1,46 @@
+/* .a{
+    width: 100px;
+    height: 100px;
+    border: 10px dotted red;
+} */
+
+/* ^ Bordrer property */
+/* ! Shorthand property */
+/* & Boder: border-width, boder-style boder-color  */
+/* * border-width ==> to give thickness for the border */
+ /* ? thick,thin, medium,(px, pt, pc......) */
+/* * border-style ==> to give style (apperance) for the boder */
+/* ? solid, dotted, dashed, double, groov, inset, outset, ridge */
+/* * border-width ==> to give color for the boder */
+/* ? red, green, blue, rgb.... */
+
+/* ~ boder-width : boder-top-width, boder-right-width, boder-bottom-width, boder-left-width */
+/* ~ border-style : boder-top-style, boder-right-style,boder-bottom-style,boder-left-style */
+/* ~ border-color : boder-top-color, boder-right-color,boder-bottom-color,boder-left-color */
+
+*{
+  display: inline-block;
+}
+.b{
+    width: 100px;
+    height: 100px;
+    border-width: 5px 10px 20px 40px;
+    border-style: solid;
+    border-color: blue;
+}
+
+.c{
+    width: 100px;
+    height: 100px;
+    border-width: 5px 10px 20px 40px;
+    border-style: groove;
+    border-style: solid dotted double ridge;
+    border-color: rgb(208, 255, 0);
+}
+.d{
+    width: 100px;
+    height: 100px;
+    border-width: 5px 10px 20px 40px;
+    border-style: inset;
+    border-color: cyan black blue red;
+}

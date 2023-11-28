@@ -1,0 +1,42 @@
+/* ! Pseuodo Class Selector */
+/* ? Link selector*/
+/* ? change defalt blue color of anchor tag */
+a:link {
+    color: magenta;
+}
+
+/* ^ ------------------------------------------------------------ */
+/* ~ Visited Selector */
+/*~ Change default purple color of anchore tag  */
+a:visited {
+    color: brown;
+}
+
+/* ^ ------------------------------------------------------------ */
+/* * Hover selector */
+/* * Transition the element from one proprty to anther property */
+a:hover {
+    color: yellowgreen;
+}
+
+/* ^ ------------------------------------------------------------ */
+/* ! Active Selector */
+/* ! change default red color of anchor tag ( appears only when the element is active ) */
+a:active {
+    color: orange;
+}
+
+/* ^ ------------------------------------------------------------ */
+/* TODO Focus selector */
+/* TODO  Property is applied when the element is focus where teh property will stay on the element */
+input:focus {
+    color: rgb(236, 247, 32);
+    background-color: rgb(132, 32, 247);
+}
+
+/* ^ ------------------------------------------------------------ */
+/* ?Note : link and visited are use only for anchor tag */
+/* ? hover can be applied for changing the property of the element when the cursor is placed on the element */
+/* ? link, visited, hover, active should be in the respecive order wherever using all the four */
+/* ? focus override active. the active should be declared latter focus for making both the property to work  */
+/* ^ ------------------------------------------------------------ */
