@@ -1,0 +1,61 @@
+/* ^ Display Properties */
+/* ! display flex Prperty */
+/* ?  display : flex ==> align the element is one direction*/
+/* ? flext-dicetion ==> row/ column/ row-reverse/ column-reverse */
+/* ? gap ==> gives the space between each element.  */
+/* ?  when flex-direction : row ==> */
+/* ? */
+/* ? */
+
+/* section {
+    height: 500px;
+    width: 500px;
+    border: 5px solid red;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    gap: 10px;
+} */
+
+/* section article {
+    height: 100px;
+    width: 100px;
+    border: 5px solid blue;
+    background-color: aqua;
+} */
+
+/* ?  when flex-direction: row ==> align-items ==> vertically*/
+/* ?  when flex-direction: row ==> justify-content ==> horizontally*/
+
+/* ?  when flex-direction: column ==> align-items ==> horizontally*/
+/* ?  when flex-direction: column ==> justify-content ==> vertically*/
+
+/* & align-items : start/ end/ center */
+/* & justify-content : start/ end/ center/ space-around/ space-between/ space-evenly */
+/* ! Note :  */
+/* ? To Center an element */
+/* 
+ * display : flexx;
+ * align-items : center;
+ * justify-content : center;
+*/
+/* ?  without display : flex, align-atems and justify-content doesnot works */
+
+section {
+    height: 500px;
+    width: 500px;
+    border: 5px solid red;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section article {
+    height: 100px;
+    width: 100px;
+    border: 5px solid blue;
+    background-color: aqua;
+    font-size: 50px;
+}

@@ -1,2 +1,8 @@
 /* ! Attribute selector */
-/* ? tag[] */
+/* ? tag[attribute_name] */
+input[type]{
+    background-color: red;
+}
+input[type="email"]{
+    background-color: green;
+}
