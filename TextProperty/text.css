@@ -1,0 +1,35 @@
+/* ! Text Property */
+/* ? color ==> use to color the text context */
+/* ? text-align: left/right/ center ==> aligns the text horizontaly*/
+/* ? text-trasform: lowercase/uppercase/ capatilize */
+/* ? text-decoration : underline/ overline / line-through / none */
+/* & Shorthand property for text-decoration property */
+/* text-decoration: underline green dotted 5px; */
+/* text-decoration-line: underline;
+    text-decoration-color: burlywood;
+    text-decoration-style: double;
+    text-decoration-thickness: 5px; */
+/* ? text-shadow:  10px 10px 1px green; ==> Horizontal vertical opacity color */
+/* ? text-shadow: 1px 1px 1px green, 2px 2px 1px blue; ==> apply multi color shadow*/
+
+p {
+    color: blueviolet;
+    text-align: center;
+    text-transform: capitalize;
+    /* text-decoration: line-through; */
+    /* text-decoration: underline green dotted 5px; */
+    /* text-decoration-line: underline;
+    text-decoration-color: burlywood;
+    text-decoration-style: double;
+    text-decoration-thickness: 5px; */
+    /* text-shadow:  10px 10px 1px green; */
+    text-shadow: 1px 1px 1px green, 2px 2px 1px blue;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

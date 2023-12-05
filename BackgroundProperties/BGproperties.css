@@ -1,0 +1,45 @@
+/* ! Background Properties */
+/* ? background-origin: padding-box / boder-box / center-box; ==>> specifies the initial point of the background-image */
+/* ? background-clip: border-box / padding-box / content-box; ==> specifies the initial point of the background-color */
+
+/* ? background-attachment : scroll / local / fixed */
+/* ~ scroll ==> background-image is attached for the element which scrolls according to the webpage */
+/* ~ local ==> background-image is attached for the content of the element which scolls along with the content of the element */
+/* ~ fixid ==> background-image is fixed for the element which doesnot scroll along with the webpage */
+/* 
+section {
+    height: 500px;
+    width: 500px;
+    border: 5px solid red; */
+/* padding: 100px; */
+/* box-sizing: border-box; */
+/* background-color: aqua; */
+/* background-image: url(../../img/p9.jpg); */
+/* background-image: url(p9.jpg);
+    background-size: 100px 100px;
+    overflow: scroll;
+    background-attachment: local;
+    background-repeat: no-repeat; */
+/* background-repeat: space;
+    background-position: top center;
+    background-origin: content-box;
+    background-clip: content-box; */
+/* } */
+
+p {
+    height: 400px;
+    background-color: yellow;
+}
+
+div {
+    height: fit-content;
+    background-color: magenta;
+}
+
+section {
+    height: 500px;
+    background-image: url(p9.jpg);
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
