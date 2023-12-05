@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div .myxyz{
+    size: 300px;
+    width: 200px;
+    height: 100px;
+    color: red;
+}
+div{
+    height: 300px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.736)), url(bgImage.jpg);
+}
+div .textColWhite{
+    color: white;
+}
+div button{
+    width: 150px;
+    height: 40px;
+    columns: white;
+     background-color: red;
+}
+div input{
+    width: 300px;
+    height: 40px;
+}
+div form{
+    margin-top: 300px;
+}
