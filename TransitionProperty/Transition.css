@@ -29,23 +29,20 @@ section:hover {
     width: 200px;
     background-color: green;
 } */
-
+/* !------------------------------------- */
 section {
     width: 100px;
     height: 100px;
     background-color: red;
-    transition-property: all;
+    /* transition-property: all;
     transition-duration: 5s;
     transition-timing-function: ease-in;
-    transition-delay: 3s;
+    transition-delay: 3s; */
 }
 
 section:hover {
     height: 200px;
     width: 200px;
     background-color: green;
-    transition-property: all;
-    transition-duration: 5s;
-    transition-timing-function: ease-in;
-    transition-delay: 3s;
+    transition: all 5s linear 3s;
 }

@@ -1,7 +1,7 @@
 /* ^ Transform property */
 /* ? transfrom: scale(5) => integer/ decimal */
-/* ?  transfor: slow(30deg) => in degree  */
-/* ? trasform: rotate(360deg) => in degree  */
+/* ? transform: slow(30deg) => in degree  */
+/* ? transform: rotate(360deg) => in degree  */
 
 section {
     height: 200px;
@@ -15,7 +15,7 @@ section {
 }
 
 section:hover {
-    /* transform: scale(0.2); */
+    transform: scale(0.2);
     /* (-2) , (-0.2) */
     /* transform: skew(90deg); */
     transform: rotate(360deg);
