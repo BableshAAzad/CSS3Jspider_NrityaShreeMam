@@ -4,28 +4,41 @@
 /* ~ to bottom ==> 180deg (default) */
 /* ~ to rigth ==> 90deg */
 /* ~ to left ==> 270deg */
-/* ? repeatig-linear-gradiant() ==> specifies the color with ratio percentage */
 /* background-image: linear-gradient(red, yellow, blue, orange, magenta); */
-/* background-image: radial-gradient(red, yellow, blue, orange, magenta);
 /* background-image: linear-gradient(45deg,red, green, yellow); */
 /* background-image: linear-gradient(red 10%, green 20%, yellow 30%); */
+
 /* & specify the repeating-linear-gradiant with ratio percentage */
 /* background-image: repeating-linear-gradient(red 10%, green 20%, yellow 30%); */
+/* ? repeatig-linear-gradiant() ==> specifies the color with ratio percentage */
+
 /* & gradiant whith background-image */
 /* background-image: linear-gradient(rgba(255, 0, 255, 0.6), rgba(255, 255, 0, 0.736)), url(/imgFolder/monkey.jpg); */
-/* ^ radial-gradiant(shape, color1, color2......) */
 
+/* section {
+    width: 550px;
+    height: 550px;
+    border: 3px solid #000000;
+    background-image: lirear-gradient(rgba(255, 0, 255, 0.6), rgba(255, 255, 0, 0.736)), url(/imgFolder/monkey.jpg);
+} */
+/* !-------------------------------------------------------------------------------------------------------------------- */
+/* ^ radial-gradiant(shape, color1, color2......) */
 /* & ellipse(default) */
 /* & circle */
-/* ? repeating-radial-gradient() ==> specify the color with ratio percentage */
 /* background-image: radial-gradient(red, green, yellow, blue, orange, magenta); */
+/* background-image: radial-gradient(circle, red, yellow, blue, orange, magenta);
 /* background-image: radial-gradient(red 10%, green 20%, yellow 30%); */
+
 /* &  specify the repeating-radial-gradient with ratio percentage */
 /* background-image: repeating-radial-gradient(red 10%, green 20%, yellow 30%); */
+/* ? repeating-radial-gradient() ==> specify the color with ratio percentage */
+
 /* & gradiant with background-image */
+/* background-image: radial-gradient(rgba(255, 0, 255, 0.6), rgba(255, 255, 0, 0.736)), url(/imgFolder/monkey.jpg)); */
+
 section {
     width: 550px;
     height: 550px;
     border: 3px solid #000000;
-    background-image: linear-gradiant(rgba(255, 0, 255, 0.6), rgba(255, 255, 0, 0.736)), url(/imgFolder/monkey.jpg);
+    background-image: radial-gradient(rgba(255, 0, 255, 0.6), rgba(255, 255, 0, 0.736)), url(/imgFolder/monkey.jpg);
 }

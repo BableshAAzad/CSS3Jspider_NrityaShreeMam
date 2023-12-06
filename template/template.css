@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* & FIRST CARD BLOCK STARTS HERE */
+#card1{
+    height: 522px;
+    width:320px;
+    /* border: 5px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d87513;
+    border-radius: 15px 0px 0px 15px;
+}
+#card1 #container{
+    height: 430px;
+    width:250px;
+    /* border: 5px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#card1 #container .first_block{
+    height: 280px;
+    /* width: inherit; */
+    /* border: 5px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#card1 #container .second_block{
+    height: 50px;
+    width: 150px;
+    /* border: 5px solid black; */
+    font-family: sans-serif;
+    background-color: white;
+    border-radius: 40px;
+    padding: 15px 0px 0px 35px;
+    font-size: 15px;
+    color: #d87513;
+    font-weight: 600;
+}
+#card1 #container .first_block .icon_block{
+    height: 45px;
+    width: 45px;
+    /* border: 2px solid blue; */
+    border-radius: 50%;
+    font-size: 33px;
+    padding: 7px 0px 0px 23px;
+    background-color: #b36b1e;
+    color:#fed66e;
+
+}
+#card1 #container .first_block .heading_block{
+    height: fit-content;
+    font-family: 'Teko', sans-serif;
+    /* border: 2px solid blue; */
+    font-size: 50px;
+    color:white;
+}
+
+#card1 #container .first_block .para_block{
+    height: fit-content;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border: 2px solid blue; */
+    color:#eadcce;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 600;
+
+}
+/* & FIRST CARD BLOCK ENDS HERE */
+
+/* & SECOND CARD BLOCK STARTS HERE */
+#card2{
+    height: 522px;
+    width:320px;
+    /* border: 5px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#016972;
+}
+#card2 #container{
+    height: 430px;
+    width:250px;
+    /* border: 5px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#card2 #container .first_block{
+    height: 280px;
+    /* width: inherit; */
+    /* border: 5px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#card2 #container .second_block{
+    height: 50px;
+    width: 150px;
+    /* border: 5px solid black; */
+    font-family: sans-serif;
+    background-color: white;
+    border-radius: 40px;
+    padding: 15px 0px 0px 35px;
+    font-size: 15px;
+    color: #016972;
+    font-weight: 600;
+}
+#card2 #container .first_block .icon_block{
+    height: 45px;
+    width: 45px;
+    /* border: 2px solid blue; */
+    border-radius: 50%;
+    font-size: 33px;
+    padding: 7px 0px 0px 23px;
+    background-color: #005458;
+    color:#23b7c0;
+
+}
+#card2 #container .first_block .heading_block{
+    height: fit-content;
+    font-family: 'Teko', sans-serif;
+    /* border: 2px solid blue; */
+    font-size: 50px;
+    color:white;
+}
+
+#card2 #container .first_block .para_block{
+    height: fit-content;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border: 2px solid blue; */
+    color:#eadcce;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 600;
+
+}
+/* & SECOND CARD BLOCK ENDS HERE */
+
+/* & THIRD CARD BLOCK STARTS HERE */
+#card3{
+    height: 522px;
+    width:320px;
+    /* border: 5px solid blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#00403f;
+    border-radius: 0px 15px 15px 0px;
+}
+#card3 #container{
+    height: 430px;
+    width:250px;
+    /* border: 5px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#card3 #container .first_block{
+    height: 280px;
+    /* width: inherit; */
+    /* border: 5px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#card3 #container .second_block{
+    height: 50px;
+    width: 150px;
+    /* border: 5px solid black; */
+    font-family: sans-serif;
+    background-color: white;
+    border-radius: 40px;
+    padding: 15px 0px 0px 35px;
+    font-size: 15px;
+    color: #00403f;
+    font-weight: 600;
+}
+#card3 #container .first_block .icon_block{
+    height: 45px;
+    width: 45px;
+    /* border: 2px solid blue; */
+    border-radius: 50%;
+    font-size: 33px;
+    padding: 7px 0px 0px 23px;
+    background-color:#073636;
+    color:#26b49c;
+
+}
+#card3 #container .first_block .heading_block{
+    height: fit-content;
+    font-family: 'Teko', sans-serif;
+    /* border: 2px solid blue; */
+    font-size: 50px;
+    color:white;
+}
+
+#card3 #container .first_block .para_block{
+    height: fit-content;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border: 2px solid blue; */
+    color:#eadcce;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 600;
+
+}
+/* & THIRD CARD BLOCK ENDS HERE */

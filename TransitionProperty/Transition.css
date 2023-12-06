@@ -1,0 +1,51 @@
+/* ^ Transition property */
+/* ? transition-property: specifies which property(hover proprty) should have the transition effect  */
+/* ? transition-duration: specifies the duration for element transition */
+/* ? transition-timing-function: specifies the behaviour of the element during transition according to transtion-duration */
+/* ~ ease, ease-in, ease-out, ease-in-out, linear */
+/* ~ ease ==> slow element */
+/* ~ ease-in ==> start slow */
+/* ~ ease-out ==> end slow */
+/* ~ ease-in-out ==> start slow and end slow */
+/* ~ linear ==> same speed */
+/* ? transition-delay: after specified time the transition of an element starts */
+/* ^ Transition shorthand property */
+/* ? trandsion:transition-property transition-duration transition-timing-function transition-delay */
+/* ~ trandsion: all 5s linear 3s */
+
+
+/* section {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-property: all;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+    transition-delay: 3s;
+}
+
+section:hover {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+} */
+
+section {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-property: all;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+    transition-delay: 3s;
+}
+
+section:hover {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    transition-property: all;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+    transition-delay: 3s;
+}

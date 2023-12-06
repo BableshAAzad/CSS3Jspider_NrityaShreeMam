@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.secMain{
+    display: flex;
+}
+
+/* ^----------------------------------------------------------- */
+section #sec1 {
+    width: 300px;
+    height: 300px;
+    /* border: 5px solid red; */
+    background-image: url(/imgFolder/monkey.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px 300px;
+    margin: 30px;
+}
+
+section #sec1:hover {
+    width: 300px;
+    height: 300px;
+    /* border: 5px solid red; */
+    background-image: url(/imgFolder/p9.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px 300px;
+    margin: 30px;
+    box-shadow: 20px 10px 10px rgb(62, 68, 62);
+}
+
+/* ^----------------------------------------------------------- */
+section #sec2 {
+    width: 300px;
+    height: 300px;
+    /* border: 5px solid red; */
+    background-image: url(/imgFolder/p9.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px 300px;
+    margin: 30px;
+}
+
+section #sec2:hover {
+    width: 300px;
+    height: 300px;
+    /* border: 5px solid red; */
+    background-image: url(/imgFolder/salesforcec2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px 300px;
+    margin: 30px;
+    box-shadow: 20px 10px 10px rgb(62, 68, 62);
+}
+
+/* ^----------------------------------------------------------- */
+section #sec3 {
+    width: 300px;
+    height: 300px;
+    /* border: 5px solid red; */
+    background-image: url(/imgFolder/salesforcec2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px 300px;
+    margin: 30px;
+}
+
+section #sec3:hover {
+    width: 300px;
+    height: 300px;
+    /* border: 5px solid red; */
+    background-image: url(/imgFolder/monkey.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px 300px;
+    margin: 30px;
+    box-shadow: 20px 10px 10px rgb(62, 68, 62);
+}
+
+/* ^----------------------------------------------------------- */

@@ -1,0 +1,71 @@
+/* & position: absolute and relative */
+section{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    position:relative;
+}
+section article{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    margin-top: 100px;
+    position: absolute;
+}
+main{
+    height: 200px;
+    width: 300px;
+    background-color: green;
+}
+
+/* & position:absolute */
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: absolute;
+    margin-left: 50px;
+}
+
+#box3{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
+
+
+/* & position:fixed */
+section{
+    height: 200px;
+    width: 600px;
+    background-color: blue;
+    position: fixed;
+}
+
+/* & position:sticky */
+section{
+    height: 200px;
+    width: 600px;
+    background-color: blue;
+    position: sticky;
+    /* position: fixed; */
+    top:50px;
+}
+
+
+
+
+/* & position: static/relative/absolute/sticky/fixed */
+/* ? position: static => (the default value ) disadvantage is top/left/bottom/right/z-index properties will not be applicable  */
+/* ? position: relative => the element is relative to another element which doesn't makes other element to occupy the white space. */
+/* ? position: absolute => the element makes the adjacent element to occupy the white space (where the element can be moved anywhere on the webpage)*/
+/* ? position: fixed ==> the element fixed to its position which will not scroll along with the webpage */
+/* ? position: sticky ==> similar to fixed but the intial point of the element should be specified using top/left/right/bottom properties*/
+/* ! relative and sticky ==> doesn't occupies the adjacent element for the leftout white space */
+/* ! absolute and fixed ==> occupies the adjacent element for the leftout white space */
