@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+nav #container {
+    height: inherit;
+    width: 93%;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav #container .left_block {
+    height: inherit;
+    width: 50%;
+    border: 2px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav #container .left_block .hyperLinks {
+    width: fit-content;
+    border: 2px solid magenta;
+    display: flex;
+
+}
+
+nav #container .left_block .hyperLinks div {
+    padding: 20px;
+}

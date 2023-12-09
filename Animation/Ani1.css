@@ -1,0 +1,97 @@
+ /* section { */
+ /* height: 500px; */
+ /* width: 500px; */
+ /* background-color: red; */
+ /* animation-name: bablesh; */
+ /* animation-duration: 1s; */
+ /* total perform animation time; */
+ /* animation-timing-function: ease; */
+ /* animation-delay: 3s; */
+ /* after 2 second start */
+ /* animation-iteration-count: infinite; */
+ /* circle of animation repeatedly */
+ /* } */
+
+ /* @keyframes bablesh {
+     from {
+         background-color: green;
+     }
+
+     to {
+         background-color: blue;
+     }
+ } */
+ /* 
+ @keyframes bablesh {
+    0% {
+        background-color: green;
+    }
+
+    25% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    75% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: orange;
+    }
+}  */
+ /* ^--------------------------------------------------------- */
+
+ section {
+     height: 100px;
+     width: 100px;
+     position: relative;
+     background-color: red;
+     animation-name: roundRotet;
+     animation-duration: 1s;
+     /* total perform animation time */
+     animation-timing-function: ease;
+     animation-delay: 2s;
+     /* after 2 second start */
+     animation-iteration-count: 5;
+     /* circle of animation repeatedly */
+     animation-direction: normal;
+     animation-fill-mode: backwards;
+     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+     /* animation:roundRotet  1s ease 2s infinite normal backwards; */
+ }
+
+ @keyframes roundRotet {
+     0% {
+         background-color: green;
+         top: 0px;
+         left: 0px;
+     }
+
+     25% {
+         background-color: blue;
+         top: 200px;
+         left: 0px;
+     }
+
+     50% {
+         background-color: yellow;
+         top: 200px;
+         left: 200px;
+     }
+
+     75% {
+         background-color: magenta;
+         top: 0px;
+         left: 200px;
+     }
+
+     100% {
+         background-color: chocolate;
+         top: 0px;
+         left: 0px;
+     }
+ }

@@ -1,0 +1,22 @@
+/* & CSS units */
+/* ? Aboslute units ==> fixed */
+/* ~ cm ==> centimeter */
+/* ~ mm ==> milimeter */
+/* ~ px ==> pixels */
+/* ~ pt ==> points */
+/* ~ pc ==> picas */
+/* ~ in ==> inches */
+
+/* ? Relative units ==> vary depending upon other elements */
+/* ~ % ==> percentage ==> varies according to parent element */
+/* ~ em ==> element ==> varies according to the font-size of an element */
+/* ~ rem ==> root element ==> varies according to the font-size of an root element(html) */
+/* ~ vh ==> view height ==> varies according to viewport height */
+/* ~ vw ==> view width ==> varies according to viewport width*/
+
+
+section{
+    height: 50vh;
+    width: 50vw;
+    background-color: red;
+}

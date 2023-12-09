@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    background-color: #0f0617;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav #container{
+    height: inherit;
+    width: 93%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+nav #container .left_block{
+    height: inherit;
+    width:45%;
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight:600 ;
+} 
+
+nav #container .left_block .hyperlinks{
+    width: fit-content;
+    /* border: 2px solid magenta; */
+    display: flex;
+    cursor: pointer;
+   
+}
+nav #container .left_block .hyperlinks .links{
+    padding: 0px 13px 0px 13px;
+}
+nav #container .left_block .hyperlinks .home{
+    width: fit-content;
+    position: relative;
+}
+nav #container .left_block .hyperlinks .home::after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 3px;
+    width: 65%;
+    bottom: -9px;
+    left: 12px;
+}
+nav #container .left_block .hyperlinks .l1{
+    width: fit-content;
+    position: relative;
+}
+nav #container .left_block .hyperlinks .l1::after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 3px;
+    width: 75%;
+    bottom: -9px;
+    left: 12px;
+    transition: all 0.3s ease 0s;
+    transform: scale(0);
+}
+nav #container .left_block .hyperlinks .l1:hover::after{
+    transform: scale(1);
+}
+
+
+
+nav #container .right_block{
+    height: inherit;
+    width:45% ;
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
