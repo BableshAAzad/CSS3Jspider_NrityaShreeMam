@@ -1,27 +1,38 @@
-/* .a{
-    width: 100px;
-    height: 100px;
-    border: 10px dotted red;
-} */
-
 /* ^ Bordrer property */
 /* ! Shorthand property */
 /* & Boder: border-width, boder-style boder-color  */
 /* * border-width ==> to give thickness for the border */
- /* ? thick,thin, medium,(px, pt, pc......) */
+/* ? thick,thin, medium,(px, pt, pc......) */
 /* * border-style ==> to give style (apperance) for the boder */
 /* ? solid, dotted, dashed, double, groov, inset, outset, ridge */
-/* * border-width ==> to give color for the boder */
+/* * border-color ==> to give color for the boder */
 /* ? red, green, blue, rgb.... */
 
 /* ~ boder-width : boder-top-width, boder-right-width, boder-bottom-width, boder-left-width */
 /* ~ border-style : boder-top-style, boder-right-style,boder-bottom-style,boder-left-style */
 /* ~ border-color : boder-top-color, boder-right-color,boder-bottom-color,boder-left-color */
 
-*{
-  display: inline-block;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-.b{
+
+#mainSec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.aaa {
+    width: 100px;
+    height: 100px;
+    border: 10px dotted red;
+}
+
+.bbb {
     width: 100px;
     height: 100px;
     border-width: 5px 10px 20px 40px;
@@ -29,18 +40,27 @@
     border-color: blue;
 }
 
-.c{
+.ccc {
     width: 100px;
     height: 100px;
     border-width: 5px 10px 20px 40px;
-    border-style: groove;
+    /* border-style: groove; */
     border-style: solid dotted double ridge;
     border-color: rgb(208, 255, 0);
 }
-.d{
+
+.ddd {
     width: 100px;
     height: 100px;
     border-width: 5px 10px 20px 40px;
     border-style: inset;
     border-color: cyan black blue red;
+}
+
+#borderRadius {
+    width: 200px;
+    height: 200px;
+    background-color: magenta;
+    margin: 20px;
+    border-radius: 20px 30px 50px 70px;
 }
