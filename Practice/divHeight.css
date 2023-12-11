@@ -20,12 +20,12 @@ section h1 {
 
 section div {
     position: absolute;
-    height: 300px;
-    width: 300px;
+    height: 100%;
+    width: 100%;
 }
 
 section div:hover {
     background-color: aqua;
+    transition: all 2s;
     height: 0px;
-    transition: 2s;
 }
