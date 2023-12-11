@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    height: 300px;
+    width: 300px;
+    border: 2px solid rgb(255, 0, 0);
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+section h1 {
+    position: relative;
+    z-index: 1;
+}
+
+section div {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+}
+
+section div:hover {
+    background-color: aqua;
+    height: 0px;
+    transition: 2s;
+}
