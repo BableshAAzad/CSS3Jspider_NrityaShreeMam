@@ -1,33 +1,141 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-#navbar{
+
+/* ^ --------------Navbar Start------------- */
+#navbar {
     width: 100%;
     height: 30%;
+    padding: 20px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: #18181c;
+    color: #a1a1a5;
 }
-.anchorTag{
+
+#navbar .logo {
+    width: 33px;
+    height: 33px;
+}
+
+#navbar .firstPart .innerBtn a {
+    color: #a1a1a5;
+    font-size: 19px;
+}
+
+#navbar .secondPart .innerBtn a {
+    color: #a1a1a5;
+}
+
+.anchorTag {
     text-decoration: none;
 }
-.logo{
+
+.logo {
     width: 7%;
     display: flex;
     justify-content: space-around;
 }
-.firstPart{
+
+.firstPart {
     width: 63%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+
 }
-.secondPart{
+
+.secondPart {
     width: 30%;
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
+    gap: 20px;
+    align-items: center;
 }
-#navbar .firstPart .onlineSER .onlineSER{
-    size:40px;
-    background-color: aqua;
+
+#navbar .firstPart .innerBtn .onlineSER {
+    font-size: 25px;
+    color: white;
+    /* font-family: Inter, sans-serif; */
+    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
+
+#navbar .secondPart .searchIcon,
+.worldIcon,
+.userIcon {
+    font-size: 23px;
+}
+
+#navbar .secondPart .line {
+    height: 35px;
+    width: 1.8px;
+    background-color: #303034;
+}
+
+#navbar .firstPart .line {
+    height: 35px;
+    width: 3px;
+    background-color: #303034;
+}
+
+#navbar .secondPart .userIcon {
+    width: 37px;
+    height: 37px;
+    font-size: 18px;
+    background-color: #303034;
+    border-radius: 50%;
+    padding-top: 7px;
+    text-align: center;
+}
+
+#navbar .secondPart .devPortal {
+    background-color: #26bbff;
+    color: #18181c !important;
+    font-size: 18px;
+    padding: 8px 9px;
+    border-radius: 10px;
+}
+
+/* ^ --------------Navbar end------------- */
+/* * -------------Dev epic start----------- */
+.epicDev {
+    width: 100%;
+    height: 280px;
+    background-image: url(images/hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.epicDev .epicContaint {
+    color: white;
+}
+
+.epicDev .epicContaint .headi {
+    font-size: 47px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.epicDev .epicContaint .contP{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #a1a1a5;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.epicDev .imgSec img{
+    margin-left: 320px;
+}
+
+/* * -------------Dev epic end----------- */

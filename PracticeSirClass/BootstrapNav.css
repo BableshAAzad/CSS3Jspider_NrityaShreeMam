@@ -119,3 +119,22 @@ nav div li a:hover {
 }
 
 /* Banner Ends */
+
+/* ^ Footer Card start */
+.fcards .fcard {
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    background-image: url(https://bootstrapmade.com/demo/templates/Company/assets/img/slide/slide-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fcards .fcard .fcard_content {
+    display: none;
+}
+.fcards .fcard .fcard_content:hover{
+    /* content: "hello"; */
+}
+
+/* ^ Footer Card end */

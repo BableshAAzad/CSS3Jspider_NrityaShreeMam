@@ -5,14 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Epic</title>
+    <!-- ^ google fonts api -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@500&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,200;0,400;0,500;1,200&family=Oswald:wght@500&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+        
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine"> -->
+    <!-- ^ font awsome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- ^----------------NavBar start------------------------------------------------ -->
     <nav id="navbar">
-        <main class="logo">Logo</main>
+        <main class="logo"><img src="/Project/images/logo.png" alt="logo"></main>
+        <section style="margin-left: 18px;"><i class="fa-solid fa-chevron-down"></i></section>
         <main class="firstPart">
-            <aside class="innerBtn"><a href="#" class="anchorTag onlineSER">ONLINE SERVICES</a></aside>
+            <aside class="line"></aside>
+            <aside class="innerBtn onlineSer"><a href="#" class="anchorTag onlineSER">ONLINE SERVICES</a></aside>
             <aside class="innerBtn"><a href="#" class="anchorTag">Overview</a></aside>
             <aside class="innerBtn"><a href="#" class="anchorTag">Account Services</a></aside>
             <aside class="innerBtn"><a href="#" class="anchorTag">Game Services</a></aside>
@@ -21,13 +43,32 @@
             <aside class="innerBtn"><a href="#" class="anchorTag">Resources</a></aside>
         </main>
         <main class="secondPart">
-            <aside class="innerBtn">SearchLogo</aside>
-            <aside class="innerBtn"><a href="#" class="anchorTag">worldLogo</a></aside>
-            <aside class="innerBtn"><a href="#" class="anchorTag">UserLogo</a></aside>
-            <aside class="innerBtn"><a href="#" class="anchorTag">DevPortal</a></aside>
+            <aside class="innerBtn searchIcon" id="searchin" onclick="seaching()"><i class="fa-solid fa-magnifying-glass"></i></aside>
+            <aside class="line"></aside>
+            <aside class="innerBtn worldIcon"><a href="#" class="anchorTag"><i class="fa-solid fa-globe"></i></a>
+            </aside>
+            <aside class="innerBtn userIcon"><a href="#" class="anchorTag"><i class="fa-regular fa-user"></i></a>
+            </aside>
+            <aside class="innerBtn devPortal">
+                <a href="#" class="anchorTag devPortal"> Dev Portal</a>
+            </aside>
         </main>
-
     </nav>
+    <!-- ^----------------NavBar end------------------------------------------------ -->
+    <section class="epicDev">
+        <section class="epicContaint">
+            <p class="headi">We succeed when you succeed</p>
+            <p class="contP">Epic's ecosystem of tools, services, and communities is here to help.</p>
+        </section>
+        <section class="imgSec">
+            <img src="images/epiceee.png" alt="devepic">
+        </section>
+    </section>
+
+
+
+
+    <script src="javaScript.js"></script>
 </body>
 
 </html>
