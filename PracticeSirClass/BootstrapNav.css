@@ -10,7 +10,7 @@ body {
     width: 100%;
 }
 
-/* Navbar starts */
+/* ^ -----Navbar starts-------------------------------------------- */
 nav {
     background-color: white;
     padding: 17px;
@@ -67,10 +67,10 @@ nav div li a:hover {
     color: #1bbd36;
 }
 
-/* Navbar ends */
+/* ^ Navbar ends -------------------------------------------------*/
 
 
-/* Banner starts */
+/*& Banner starts-------------------------------------------------- */
 .banner {
     background-color: red;
     width: 100%;
@@ -118,23 +118,368 @@ nav div li a:hover {
     background-color: #1bbd36;
 }
 
-/* Banner Ends */
+/*& Banner Ends --------------------------------------------------------*/
+/*! Provident starts------------------------------------------------------------------------------------ */
+.provident {
+    /* border: 2px solid red; */
+    margin: 50px 90px;
+    display: flex;
+}
 
-/* ^ Footer Card start */
+.provident-heading,
+.provident-text {
+    /* border: 2px solid blue; */
+    margin: 20px;
+    width: 50%;
+}
+
+.provident-heading h1 {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.provident-heading h2 {
+    font-weight: 500;
+}
+
+.provident-text p {
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 1px;
+}
+
+.provident-text ul {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+.provident-text ul li {
+    line-height: 27px;
+}
+
+.provident-text ul li i {
+    color: #1bbd36;
+    margin-right: 6px;
+}
+
+/*! Provident ends ----------------------------------------------------------------------------------*/
+
+/*^ cards starts--------------------------------------------------------------------------------------- */
+.cards {
+    /* border: 2px solid red; */
+    background-color: rgba(211, 211, 211, 0.307);
+    padding: 20px 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.cards .card {
+    /* border: 2px solid blue; */
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    transition: all .8s;
+
+}
+
+.cards .card:hover {
+    box-shadow: 2px 2px 30px 10px lightgray;
+}
+
+
+.cards .card .card-content {
+    /* border: 2px solid pink; */
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cards .card .card-content h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cards .card .card-content i {
+    font-size: 28px;
+    background-color: rgba(128, 128, 128, 0.15);
+    padding: 20px;
+    border-radius: 100%;
+    font-weight: bold;
+    transition: all .8s;
+}
+
+.fa-dribbble {
+    color: rgb(19, 181, 235);
+}
+
+.cards .card:hover i.fa-dribbble {
+    background-color: rgb(19, 181, 235);
+    color: white;
+}
+
+.fa-file-text-o {
+    color: orange;
+}
+
+.cards .card:hover .fa-file-text-o {
+    background-color: orange;
+    color: white;
+}
+
+.fa-tachometer {
+    color: crimson;
+}
+
+.cards .card:hover .fa-tachometer {
+    background-color: crimson;
+    color: white;
+}
+
+.fa-sticky-note-o {
+    color: rgb(255, 230, 0);
+}
+
+.cards .card:hover .fa-sticky-note-o {
+    background-color: rgb(255, 230, 0);
+    color: white;
+}
+
+.fa-youtube-play {
+    color: red;
+}
+
+.cards .card:hover .fa-youtube-play {
+    background-color: red;
+    color: white;
+}
+
+.fa-anchor {
+    color: rgb(148, 211, 233);
+}
+
+.cards .card:hover .fa-anchor {
+    background-color: rgb(148, 211, 233);
+    color: white;
+}
+
+/* ^ cards ends------------------------------------------------------------------------------------ */
+/*  TODO       Clients starts -------------------------------------------------------------------*/
+.clients {
+    /* border: 2px solid red; */
+    margin: 20px 90px;
+    padding: 28px;
+}
+
+.clients .image {
+    border: 1px solid lightgray;
+    width: 320px;
+    height: 115px;
+    /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    display: inline-block;
+    text-align: center;
+    margin: -2.1px;
+}
+
+.clients .image img {
+    width: 30%;
+    height: 30%;
+    margin-top: 12%;
+    filter: grayscale(100%);
+    transition: all .6s;
+}
+
+.clients .image:hover img {
+    filter: none;
+    transform: scale(1.2);
+}
+
+.clients h1 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.clients hr {
+    width: 50px;
+    background-color: #1bbd36;
+    height: 6px;
+    border: none;
+    margin: 2px auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/*  TODO--------------Clients ends--------------------------------------------------------------------- */
+/* Banner Ends */
+/* * Footer Card start-------------------------------------- */
+.fcards {
+    border: 2px solid red;
+    width: 80%;
+    margin: 30px 100px;
+}
+
+.fcards .pic1 {
+    background-image: url(https://bootstrapmade.com/demo/templates/Company/assets/img/portfolio/portfolio-1.jpg);
+
+}
+
+.fcards .pic2 {
+    background-image: url(https://bootstrapmade.com/demo/templates/Company/assets/img/portfolio/portfolio-2.jpg);
+
+}
+
+.fcards .pic3 {
+    background-image: url(https://bootstrapmade.com/demo/templates/Company/assets/img/portfolio/portfolio-3.jpg);
+
+}
+
+.fcards .pic4 {
+    background-image: url(https://bootstrapmade.com/demo/templates/Company/assets/img/portfolio/portfolio-4.jpg);
+
+}
+
+.fcards .pic5 {
+    background-image: url(https://bootstrapmade.com/demo/templates/Company/assets/img/portfolio/portfolio-5.jpg);
+
+}
+
+.fcards .pic6 {
+    background-image: url(https://bootstrapmade.com/demo/templates/Company/assets/img/portfolio/portfolio-6.jpg);
+
+}
+
+.fcards .pic7 {
+    background-image: url(https://bootstrapmade.com/demo/templates/Company/assets/img/portfolio/portfolio-7.jpg);
+
+}
+
+.fcards .pic8 {
+    background-image: url(https://bootstrapmade.com/demo/templates/Company/assets/img/portfolio/portfolio-8.jpg);
+
+}
+
+
 .fcards .fcard {
     width: 300px;
     height: 300px;
-    border: 2px solid red;
-    background-image: url(https://bootstrapmade.com/demo/templates/Company/assets/img/slide/slide-2.jpg);
+    margin: 15px;
+    /* border: 2px solid red; */
     background-size: cover;
     background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.fcards .fcard .fcard_content h3,
+p {
+    transition: ease-out 2s;
 }
 
 .fcards .fcard .fcard_content {
     display: none;
 }
-.fcards .fcard .fcard_content:hover{
-    /* content: "hello"; */
+
+.fcards .fcard:hover .fcard_content {
+    display: block;
+    margin-top: 230px;
+    background-color: rgb(190, 194, 199);
 }
 
-/* ^ Footer Card end */
+/* * Footer Card end --------------------------------------------------*/
+
+/* !-----------------------location email contact---------start---------------------------- */
+
+.MainDetails {
+    width: 70%;
+    height: 170px;
+    /* border: 2px solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 5px rgb(107, 106, 106);
+    /* position: relative; */
+}
+
+.MainDetails .location,
+.email,
+.contact {
+    /* border: 2px solid green; */
+    width: 33%;
+    height: 100%;
+    display: inline-block;
+    /* background-color: rgb(168, 216, 200); */
+}
+.MainDetails .location a {
+    margin-left: 30px;
+}
+
+.MainDetails .location a i {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 12px;
+    margin-top: 40px;
+    width: 65px;
+    height: 65px;
+    color: #1bbd36;
+    border: 2px solid #1bbd36;
+    border-radius: 100%;
+}
+
+.MainDetails .email a i {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 12px;
+    width: 65px;
+    height: 65px;
+    color: #1bbd36;
+    border: 2px solid #1bbd36;
+    border-radius: 100%;
+}
+
+.MainDetails .contact a i {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 12px;
+    width: 65px;
+    height: 65px;
+    color: #1bbd36;
+    border: 2px solid #1bbd36;
+    border-radius: 100%;
+}
+
+.MainDetails .location a i:hover {
+    color: white;
+    background-color: #1bbd36;
+}
+.MainDetails .email a i:hover {
+    color: white;
+    background-color: #1bbd36;
+}
+.MainDetails .contact a i:hover {
+    color: white;
+    background-color: #1bbd36;
+}
+.MainDetails .location h1,p{
+    display: inline-block;
+}
+.MainDetails .location h1{
+    margin-left: 15px;
+}
+.MainDetails .location p{
+    margin-left: 110px;
+}
+
+/* !-----------------------location email contact---------end---------------------------- */
