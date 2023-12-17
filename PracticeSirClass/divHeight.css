@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -8,24 +14,20 @@ section {
     height: 300px;
     width: 300px;
     border: 2px solid rgb(255, 0, 0);
-    position: relative;
-    display: flex;
-    justify-content: center;
+    /* position: absolute; */
 }
 
 section h1 {
-    position: relative;
-    z-index: 1;
+    display: none;
+    margin-top: 80%;
+    /* position: relative; */
+    border: 2px solid rgb(55, 0, 255);
+    transform: 2s;
+    transition: all 3s ease;
+    /* transition: all 3s ease; */
 }
 
-section div {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-}
 
-section div:hover {
-    background-color: aqua;
-    transition: all 2s;
-    height: 0px;
+section:hover h1 {
+    display: block;
 }
