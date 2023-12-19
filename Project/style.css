@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(18 18 18);
+}
+
 /* ^ --------------Navbar Start------------- */
 #navbar {
     width: 100%;
@@ -23,7 +27,20 @@
 
 #navbar .firstPart .innerBtn a {
     color: #a1a1a5;
-    font-size: 19px;
+    font-size: 17px;
+}
+
+#navbar .firstPart .hoverNav a {
+    padding: 7px 10px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar .firstPart .hoverNav:hover a {
+    background-color: #363636;
+    color: white;
+    border-radius: 10px;
+    padding: 7px 10px;
 }
 
 #navbar .secondPart .innerBtn a {
@@ -99,6 +116,11 @@
     font-size: 18px;
     padding: 8px 9px;
     border-radius: 10px;
+    transition: all 0.4s ease;
+}
+
+#navbar .secondPart .devPortal:hover{
+    background-color: #74c3e7;
 }
 
 /* ^ --------------Navbar end------------- */
@@ -125,7 +147,8 @@
     font-family: 'Oswald', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
-.epicDev .epicContaint .contP{
+
+.epicDev .epicContaint .contP {
     font-size: 20px;
     margin-top: 15px;
     color: #a1a1a5;
@@ -134,8 +157,380 @@
     font-family: 'Oswald', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
-.epicDev .imgSec img{
+
+.epicDev .imgSec img {
     margin-left: 320px;
 }
 
 /* * -------------Dev epic end----------- */
+/* & ----Tools services communicatio div........start */
+#toolSC {
+    width: auto;
+    height: auto;
+    background-color: #262626;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+#toolSC a {
+    padding: 3vh;
+    text-decoration: none;
+}
+
+#toolSC a span {
+    letter-spacing: 3px;
+}
+
+#toolSC a .snoIn {
+    color: #9d9da0;
+    font-size: 100%;
+    font-weight: 600;
+}
+
+#toolSC a .contIN {
+    color: white;
+    font-size: 100%;
+    font-weight: 500;
+    transition: all 0.4s ease;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+#toolSC a .contIN:hover{
+    color: #9d9da0;
+}
+
+/* & ----Tools services communicatio div........end */
+/* *----- Tools picture-------start ----- */
+#toolsImg {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#toolsImg p {
+    color: white;
+    font-size: 300%;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    display: inline;
+    margin-left: -73%;
+}
+
+#toolsImg img {
+    border-radius: 15px;
+    width: 90%;
+    height: 22vh;
+}
+
+/* *----- Tools picture-------ends ----- */
+/* ^ -----------Tools Material----------start------------------------------------------------------------------- */
+#toosMatials {
+    /* border: 2px solid red; */
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8%;
+    /* margin-right: 8%; */
+    gap: 2%;
+    color: white;
+    margin-bottom: 5%;
+}
+
+#toosMatials .toolsDIV {
+    /* border: 1px solid pink; */
+    height: 40vh;
+}
+
+#toosMatials .toolsDIV .toolsHeading {
+    font-size: 130%;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 13px 0px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+#toosMatials .toolsDIV .toolsHeading:hover {
+    color: #a1a1a5;
+}
+
+#toosMatials .toolsDIV .toolsPara {
+    color: #a1a1a5;
+    letter-spacing: 1px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+#toosMatials .toolsDIV .toolsLink a {
+    margin: 13px 0px;
+    display: block;
+    text-decoration: none;
+    color: rgb(17, 125, 255);
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+#toosMatials .toolsDIV .toolsLink a:hover {
+    color: rgb(16, 96, 194);
+}
+
+#toosMatials .toolsDIV .toolsLink a i {
+    font-size: 13px;
+}
+
+#toosMatials .toolsDIV .toolsLink a:hover i {
+    font-size: 15px;
+}
+
+/* ^ -----------Tools Material----------end------- */
+/* & -------Serices cards--------start---------- */
+#toosMatials .toolsDIV .serviceIMG img {
+    height: 8vh;
+}
+
+/* & -------Serices cards--------ends---------- */
+/** ----------communities -----start ----------- */
+#toolsImg #comunt {
+    color: white;
+    font-size: 300%;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    display: inline;
+    margin-left: -66%;
+}
+
+/** ----------communities -----end ----------- */
+
+/* ^........Communities cards two--------start-----  */
+#communityMatials {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 8%;
+    margin-right: auto;
+    gap: 2%;
+    color: white;
+    margin-bottom: 5%;
+}
+
+#communityMatials .toolsDIV {
+    height: 40vh;
+}
+
+#communityMatials .toolsDIV .communityIMG img {
+    height: 7vh;
+}
+
+#communityMatials .toolsDIV .toolsHeading {
+    font-size: 130%;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 13px 0px;
+}
+
+#communityMatials .toolsDIV .toolsPara {
+    color: #a1a1a5;
+    letter-spacing: 1px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+#communityMatials .toolsDIV .toolsLink a {
+    margin: 13px 0px;
+    display: block;
+    text-decoration: none;
+    color: rgb(17, 125, 255);
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+#communityMatials .toolsDIV .toolsLink a i {
+    font-size: 13px;
+}
+
+#communityMatials .toolsDIV .toolsLink a i:hover {
+    font-size: 15px;
+}
+
+/* ^........Communities cards two--------end-----  */
+/* !---------------------footer----------------------start------------- */
+footer {
+    /* border: 2px solid red; */
+    color: rgb(204 204 204);
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(42, 42, 42);
+}
+
+/* ~--------------------------------------------------------------------------------- */
+footer .iconSec {
+    /* border: 1px solid pink; */
+    width: 90%;
+    height: 17%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .iconSec .divLeft {
+    /* font-size: 240%; */
+    font-size: 40px;
+    margin: 5px;
+}
+
+footer .iconSec .divLeft i {
+    margin: 0px 4px;
+    transition: all 0.5s ease;
+}
+
+footer .iconSec .divLeft i:hover {
+    font-size: 45px;
+    color: rgb(17, 125, 255);
+}
+
+footer .iconSec .divRight {
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    transition: all 0.5s ease;
+}
+
+footer .iconSec .divRight:hover {
+    color: rgb(17, 125, 255);
+    cursor: pointer;
+}
+
+/* ~--------------------------------------------------------------------------------- */
+footer .cardSec {
+    /* border: 1px solid rgb(9, 223, 27); */
+    width: 90%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer .cardSec .cardDiv {
+    /* border: 1px solid #26bbff; */
+    height: 100%;
+    width: 14%;
+}
+
+footer .cardSec .cardDiv ul .head {
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+
+footer .cardSec .cardDiv ul .head a {
+    color: rgb(204 204 204);
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+footer .cardSec .cardDiv ul li {
+    margin: 20px 0px;
+}
+
+footer .cardSec .cardDiv ul li a {
+    color: rgb(204 204 204);
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+    transition: all 0.5s ease;
+}
+
+footer .cardSec .cardDiv ul li a:hover {
+    color: rgb(17, 125, 255);
+}
+
+/* ~--------------------------------------------------------------------------------- */
+footer .footerEndSec {
+    /* border: 1px solid rgb(9, 30, 223); */
+    width: 90%;
+    height: 23%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+footer .footerEndSec .containFooter {
+    width: 80%;
+    /* border: 1px solid #51ff26; */
+}
+
+footer .footerEndSec .containFooter p {
+    font-size: 13px;
+    word-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 16px;
+    margin-top: 8px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer .footerEndSec .containFooter .term a {
+    color: rgb(204 204 204);
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+    transition: all 0.5s ease;
+}
+
+footer .footerEndSec .containFooter .term a:hover {
+    color: rgb(17, 125, 255);
+}
+
+footer .footerEndSec .logoFooter {
+    /* border: 2px solid orange; */
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+footer .footerEndSec .logoFooter .flogo1 {
+    display: inline;
+    width: 50px;
+    height: 50px;
+}
+
+footer .footerEndSec .logoFooter .flogo2 {
+    display: inline;
+    width: 50px;
+    height: 50px;
+}
+
+/* !---------------------footer----------------------ends------------- */
