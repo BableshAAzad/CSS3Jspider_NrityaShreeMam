@@ -18,19 +18,26 @@
             width: 200px;
             height: 250px;
             border: 1px solid red;
-            /* position: absolute; */
-            /* z-index: -1; */
-            background-image: url("./../imgFolder/monkey.jpg");
-            background-size: cover;
-            transition: all 5s linear 0s;
+            position: relative;
+            overflow: hidden;
         }
 
         div section h2 {
             color: yellow;
+            z-index: 2;
+            display: inline;
+            position: absolute;
         }
 
-        div section:hover {
-            transform: rotate(360deg);
+        div section img {
+            display: inline;
+            width: 100%;
+            height: 100%;
+            transition: all 2s ease;
+        }
+        
+        div section:hover img {
+            transform: scale(1.1);
         }
     </style>
 </head>
@@ -39,6 +46,7 @@
     <div>
         <section>
             <h2>Bablesh</h2>
+            <img src="./../imgFolder/monkey.jpg" alt="monkey">
         </section>
     </div>
 </body>
