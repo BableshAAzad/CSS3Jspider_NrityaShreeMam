@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>When hover to image then it is zoom</title>
+    <style>
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* position: relative; */
+            /* z-index: 1; */
+        }
+
+        div section {
+            width: 200px;
+            height: 250px;
+            border: 1px solid red;
+            /* position: absolute; */
+            /* z-index: -1; */
+            background-image: url("./../imgFolder/monkey.jpg");
+            background-size: cover;
+            transition: all 5s linear 0s;
+        }
+
+        div section h2 {
+            color: yellow;
+        }
+
+        div section:hover {
+            transform: rotate(360deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <section>
+            <h2>Bablesh</h2>
+        </section>
+    </div>
+</body>
+
+</html>
