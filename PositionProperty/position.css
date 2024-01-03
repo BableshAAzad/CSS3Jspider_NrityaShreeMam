@@ -1,25 +1,25 @@
 /* & position: absolute and relative */
-section{
+/* section{
     height: 400px;
     width: 400px;
     background-color: red;
     position:relative;
-}
-section article{
+} */
+/* section article{
     height: 100px;
     width: 100px;
     background-color: black;
     margin-top: 100px;
     position: absolute;
-}
-main{
+} */
+/* main{
     height: 200px;
     width: 300px;
     background-color: green;
-}
+} */
 
 /* & position:absolute */
-#box1{
+/* #box1{
     height: 100px;
     width: 100px;
     background-color: red;
@@ -37,16 +37,16 @@ main{
     height: 100px;
     width: 100px;
     background-color: yellow;
-}
+} */
 
 
 /* & position:fixed */
-section{
+/* section{
     height: 200px;
     width: 600px;
     background-color: blue;
     position: fixed;
-}
+} */
 
 /* & position:sticky */
 section{
