@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#formContainer {
+    border: 1px solid rgb(121, 109, 109);
+    width: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 0px 50px 0px;
+    margin-top: 10vh;
+    border-radius: 5px;
+}
+
+#formContainer h4 {
+    letter-spacing: .70px;
+}
+
+#formContainer #fundu {
+    color: #f5d63a;
+}
+
+#formContainer #formSection {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 82%;
+}
+
+#formContainer #formSection #userId,
+#password {
+    width: 100%;
+    font-size: 15px;
+    padding: 9px;
+}
+
+#formContainer #formPass {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    width: 82%;
+    margin-top: 2%;
+    /* border: 1px solid red; */
+}
+
+#formContainer #formPass a {
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+#formContainer #formPass a:hover {
+    text-decoration: underline;
+}
+
+#formContainer #signInSection {
+    /* border: 1px solid blue; */
+    margin-top: 10%;
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#formContainer #signInSection #login {
+    background-color: rgb(95, 95, 218);
+    color: white;
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+#formContainer #signInSection a {
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+#formContainer #signInSection a:hover {
+    text-decoration: underline;
+}
