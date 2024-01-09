@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#formContainer {
+    width: 50%;
+    height: 70vh;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+    display: flex;
+    border-radius: 5px;
+}
+
+#formContainer #formLeft {
+    width: 50%;
+    /* background-color: aqua; */
+    margin: 5%;
+    margin-right: 0px;
+}
+
+#formContainer #formLeft #fundo {
+    color: #f5d63a;
+}
+
+#formContainer #formLeft #createF {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#formContainer #formLeft #firstName,
+#lastName {
+    padding: 10px;
+    width: 160px;
+    border-radius: 3px;
+    border: 1px solid rgb(71, 68, 68);
+}
+
+#formContainer #formLeft #firstName {
+    margin-right: 15px;
+}
+
+#formContainer #formLeft #userName {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 3px;
+    border: 1px solid rgb(71, 68, 68);
+}
+
+#formContainer #formLeft #userNameInfo {
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+#formContainer #formLeft #firstpass,
+#confpass {
+    padding: 10px;
+    width: 160px;
+    border-radius: 3px;
+    border: 1px solid rgb(71, 68, 68);
+    margin-top: 15px;
+}
+
+#formContainer #formLeft #firstpass {
+    margin-right: 15px;
+}
+
+#formContainer #formLeft #passInfo {
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+#formContainer #formLeft #signDiv {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#formContainer #formLeft #signDiv a {
+    text-decoration: none;
+}
+
+#formContainer #formLeft #signDiv a:hover {
+    text-decoration: underline;
+}
+
+#formContainer #formLeft #signDiv #register {
+    background-color: rgb(95, 95, 218);
+    color: white;
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: none;
+    transition: all 1s ease;
+}
+#formContainer #formLeft #signDiv #register:hover{
+    background-color: rgb(20, 20, 236);
+}
+
+/* *********************************** */
+#formContainer #formRight {
+    width: 45%;
+}
+
+#formContainer #formRight {
+    margin-top: 10%;
+    background: url(images.png) no-repeat;
+    background-size: 100%;
+}
+
+#formContainer #formRight p {
+    margin-top: 75%;
+    margin-left: 50px;
+    margin-right: 45px;
+    font-size: 17px;
+}
